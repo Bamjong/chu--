@@ -9,10 +9,11 @@ int main(void)
 	printf("two type fruits : ");
 	scanf("%s%s", str1, str2);
 	if (strlen(str1) > strlen(str2))
-		resp = str1
+		resp = str1;
 	else
 		resp = str2;
 	printf("long name fruits : %s\n", resp);
+
 
 	return 0;
 }
